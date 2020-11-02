@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6c7f1568af22942a6571d8abd863cc, type: 3}
+  m_Name: textFreq
+  m_EditorClassIdentifier: 
+  frequencies:
+  - c: 97
+    frequency: 55
+  - c: 98
+    frequency: 68
+  - c: 99
+    frequency: 84
+  - c: 100
+    frequency: 19
+  - c: 101
+    frequency: 87
+  - c: 102
+    frequency: 38
+  - c: 103
+    frequency: 80
+  - c: 104
+    frequency: 88
+  - c: 105
+    frequency: 97
+  - c: 106
+    frequency: 12
+  - c: 107
+    frequency: 96
+  - c: 108
+    frequency: 76
+  - c: 109
+    frequency: 37
+  - c: 110
+    frequency: 46
+  - c: 111
+    frequency: 23
+  - c: 112
+    frequency: 78
+  - c: 113
+    frequency: 13
+  - c: 114
+    frequency: 28
+  - c: 115
+    frequency: 27
+  - c: 116
+    frequency: 67
+  - c: 117
+    frequency: 76
+  - c: 118
+    frequency: 66
+  - c: 119
+    frequency: 97
+  - c: 120
+    frequency: 92
+  - c: 121
+    frequency: 80
+  - c: 122
+    frequency: 2
+  - c: 65
+    frequency: 45
+  - c: 66
+    frequency: 19
+  - c: 67
+    frequency: 83
+  - c: 68
+    frequency: 40
+  - c: 69
+    frequency: 66
+  - c: 70
+    frequency: 60
+  - c: 71
+    frequency: 27
+  - c: 72
+    frequency: 61
+  - c: 73
+    frequency: 13
+  - c: 74
+    frequency: 56
+  - c: 75
+    frequency: 65
+  - c: 76
+    frequency: 50
+  - c: 77
+    frequency: 95
+  - c: 78
+    frequency: 33
+  - c: 79
+    frequency: 29
+  - c: 80
+    frequency: 95
+  - c: 81
+    frequency: 19
+  - c: 82
+    frequency: 91
+  - c: 83
+    frequency: 71
+  - c: 84
+    frequency: 39
+  - c: 85
+    frequency: 35
+  - c: 86
+    frequency: 78
+  - c: 87
+    frequency: 72
+  - c: 88
+    frequency: 96
+  - c: 89
+    frequency: 58
+  - c: 90
+    frequency: 25
+  - c: 48
+    frequency: 78
+  - c: 49
+    frequency: 53
+  - c: 50
+    frequency: 43
+  - c: 51
+    frequency: 41
+  - c: 52
+    frequency: 12
+  - c: 53
+    frequency: 36
+  - c: 54
+    frequency: 74
+  - c: 55
+    frequency: 68
+  - c: 56
+    frequency: 40
+  - c: 57
+    frequency: 98
+  - c: 32
+    frequency: 84
+  - c: 44
+    frequency: 11
+  - c: 46
+    frequency: 2
+  - c: 45
+    frequency: 31

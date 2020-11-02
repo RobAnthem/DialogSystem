@@ -1,0 +1,556 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7807713173396864366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93a75a6fce9d5242981d9fe4760e915, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -376, y: -136}
+  ports:
+    keys:
+    - Input
+    - Output0
+    - Output1
+    - Output2
+    - Output3
+    - Output4
+    values:
+    - _fieldName: Input
+      _fieldID: 0
+      _node: {fileID: -7807713173396864366}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output0
+      _fieldID: 0
+      _node: {fileID: -7807713173396864366}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output1
+      _fieldID: 0
+      _node: {fileID: -7807713173396864366}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output2
+      _fieldID: 0
+      _node: {fileID: -7807713173396864366}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output3
+      _fieldID: 0
+      _node: {fileID: -7807713173396864366}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output4
+      _fieldID: 0
+      _node: {fileID: -7807713173396864366}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogID: 0
+  dialog:
+    text: This is a test of the diealog system. Please proceed by selecting an option.
+    ID: 0
+    clip: {fileID: 0}
+    sourceObject: {fileID: 0}
+    entity: {fileID: 0}
+    TalkID: 0
+    responses:
+    - response: This is an option!
+      nextID: 0
+      nextEventID: -1
+      eventID: 0
+      conditions:
+        varID: 
+        varState: 0
+        isOneTime: 0
+        oneTimeID: 
+    - response: Also an option.
+      nextID: 0
+      nextEventID: -1
+      eventID: 0
+      conditions:
+        varID: 
+        varState: 0
+        isOneTime: 0
+        oneTimeID: 
+    - response: I want something different.
+      nextID: 0
+      nextEventID: -1
+      eventID: 0
+      conditions:
+        varID: 
+        varState: 0
+        isOneTime: 0
+        oneTimeID: 
+    hasEvent: 0
+    eventID: 0
+    conditions:
+      varID: 
+      varState: 0
+      isOneTime: 0
+      oneTimeID: 
+    isEntry: 0
+  Input: 0
+  Output0: 0
+  Output1: 1
+  Output2: 2
+  Output3: 3
+  Output4: 4
+  Options: 0
+  responseOptions: 0
+  conditionOptions: 0
+  showVar: 0
+  mainDialogEvent: 0
+  showDialogText: 1
+  showDialogCondition: 0
+  showDialogVar: 0
+--- !u!114 &-6681835237802888360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93a75a6fce9d5242981d9fe4760e915, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -88, y: -152}
+  ports:
+    keys:
+    - Input
+    - Output0
+    - Output1
+    - Output2
+    - Output3
+    - Output4
+    values:
+    - _fieldName: Input
+      _fieldID: 0
+      _node: {fileID: -6681835237802888360}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output0
+      _fieldID: 0
+      _node: {fileID: -6681835237802888360}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output1
+      _fieldID: 0
+      _node: {fileID: -6681835237802888360}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output2
+      _fieldID: 0
+      _node: {fileID: -6681835237802888360}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output3
+      _fieldID: 0
+      _node: {fileID: -6681835237802888360}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output4
+      _fieldID: 0
+      _node: {fileID: -6681835237802888360}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogID: 1
+  dialog:
+    text: 
+    ID: 1
+    clip: {fileID: 0}
+    sourceObject: {fileID: 0}
+    entity: {fileID: 0}
+    TalkID: 0
+    responses: []
+    hasEvent: 0
+    eventID: 0
+    conditions:
+      varID: 
+      varState: 0
+      isOneTime: 0
+      oneTimeID: 
+    isEntry: 0
+  Input: 0
+  Output0: 0
+  Output1: 1
+  Output2: 2
+  Output3: 3
+  Output4: 4
+  Options: 0
+  responseOptions: 0
+  conditionOptions: 0
+  showVar: 0
+  mainDialogEvent: 0
+  showDialogText: 1
+  showDialogCondition: 0
+  showDialogVar: 0
+--- !u!114 &-4658667318907032326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93a75a6fce9d5242981d9fe4760e915, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -88, y: 72}
+  ports:
+    keys:
+    - Input
+    - Output0
+    - Output1
+    - Output2
+    - Output3
+    - Output4
+    values:
+    - _fieldName: Input
+      _fieldID: 0
+      _node: {fileID: -4658667318907032326}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output0
+      _fieldID: 0
+      _node: {fileID: -4658667318907032326}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output1
+      _fieldID: 0
+      _node: {fileID: -4658667318907032326}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output2
+      _fieldID: 0
+      _node: {fileID: -4658667318907032326}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output3
+      _fieldID: 0
+      _node: {fileID: -4658667318907032326}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output4
+      _fieldID: 0
+      _node: {fileID: -4658667318907032326}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogID: 3
+  dialog:
+    text: Well this is different at least.
+    ID: 3
+    clip: {fileID: 0}
+    sourceObject: {fileID: 0}
+    entity: {fileID: 0}
+    TalkID: 0
+    responses:
+    - response: Thanks!
+      nextID: 0
+      nextEventID: -1
+      eventID: 0
+      conditions:
+        varID: 
+        varState: 0
+        isOneTime: 0
+        oneTimeID: 
+    hasEvent: 0
+    eventID: 0
+    conditions:
+      varID: 
+      varState: 0
+      isOneTime: 0
+      oneTimeID: 
+    isEntry: 0
+  Input: 0
+  Output0: 0
+  Output1: 1
+  Output2: 2
+  Output3: 3
+  Output4: 4
+  Options: 0
+  responseOptions: 0
+  conditionOptions: 0
+  showVar: 0
+  mainDialogEvent: 0
+  showDialogText: 1
+  showDialogCondition: 0
+  showDialogVar: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cee1154405702a43836b149d782e584, type: 3}
+  m_Name: TestDialog
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5949380438752312270}
+  - {fileID: -7807713173396864366}
+  - {fileID: -6681835237802888360}
+  - {fileID: 2926195901594595569}
+  - {fileID: -4658667318907032326}
+  Name: 
+--- !u!114 &2926195901594595569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93a75a6fce9d5242981d9fe4760e915, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 152, y: -152}
+  ports:
+    keys:
+    - Input
+    - Output0
+    - Output1
+    - Output2
+    - Output3
+    - Output4
+    values:
+    - _fieldName: Input
+      _fieldID: 0
+      _node: {fileID: 2926195901594595569}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output0
+      _fieldID: 0
+      _node: {fileID: 2926195901594595569}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output1
+      _fieldID: 0
+      _node: {fileID: 2926195901594595569}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output2
+      _fieldID: 0
+      _node: {fileID: 2926195901594595569}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output3
+      _fieldID: 0
+      _node: {fileID: 2926195901594595569}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output4
+      _fieldID: 0
+      _node: {fileID: 2926195901594595569}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogID: 2
+  dialog:
+    text: 
+    ID: 2
+    clip: {fileID: 0}
+    sourceObject: {fileID: 0}
+    entity: {fileID: 0}
+    TalkID: 0
+    responses: []
+    hasEvent: 0
+    eventID: 0
+    conditions:
+      varID: 
+      varState: 0
+      isOneTime: 0
+      oneTimeID: 
+    isEntry: 0
+  Input: 0
+  Output0: 0
+  Output1: 1
+  Output2: 2
+  Output3: 3
+  Output4: 4
+  Options: 0
+  responseOptions: 0
+  conditionOptions: 0
+  showVar: 0
+  mainDialogEvent: 0
+  showDialogText: 0
+  showDialogCondition: 0
+  showDialogVar: 0
+--- !u!114 &5949380438752312270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab18611d86b73f34493fdb5223d536c7, type: 3}
+  m_Name: Dialog Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 440, y: -152}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _fieldID: 0
+      _node: {fileID: 5949380438752312270}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _fieldID: 0
+      _node: {fileID: 5949380438752312270}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Input: 0
+  Output: 0
+  dialogObjectRef: {fileID: 11400000, guid: 119b15290948d2c49a3387952900b818, type: 2}
+  dialogEventID: 91992
